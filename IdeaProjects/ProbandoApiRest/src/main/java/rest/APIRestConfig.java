@@ -6,7 +6,6 @@ public class APIRestConfig {
     private APIRestConfig() {
 
     }
-
     // Constructor del servicio con los elementos de la interfaz
     public static AccesoDatosRest getService() {
         System.out.println("API URL: " + API_URL);
