@@ -1,6 +1,5 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import model.Root;
 import model.Tareas;
 import model.Users;
 import rest.Config;
@@ -62,6 +61,11 @@ public class Client {
     }
 
     private void usersPost() {
+        /*
+        Me he quedado atrancado porque no sabia como poder filtrar por el data y eso me entretenido mucho, en los repetidos ejemplos que hice no cai
+        en hacer con el data, todos los JSON me dejabba sacarlo como objeto pero no he sico capaz, es una p*tada, porque el resto si que sabia hacerlo,
+        no digo que lo fuese a sacar porque posiblemente siempre te quedes pillado en algo pero no he tenido suerte en ese sentido
+         */
         System.out.println("POST Users");
         Set<Tareas> tareas = new HashSet<Tareas>();
         Tareas tarea = new Tareas(1, new Users(1826), "54406606Z", false);
