@@ -21,8 +21,8 @@ public class GestionCliente extends Thread {
     private PrivateKey privateKey = null;
     private byte[] sesionCifrada = null;
     private PublicKey publicKey;
-    private ArrayDeque<MovimientoCliente> pila;
-    MovimientoCliente movi;
+
+
 
 
     public GestionCliente(SSLSocket cliente) {
